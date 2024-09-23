@@ -1,0 +1,42 @@
+.form-main{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    
+
+}
+.form-main form{
+       display: flex;
+       flex-direction: column;
+      border: solid 3px rgba(45,47,49,0.5);
+       margin:   10px  30px ;
+       padding-top: 15px;
+       padding-bottom: 30px;
+       width: 320px;
+       gap: 13px;
+       align-items: center;
+       border-radius: 10px;
+
+      
+       
+}
+.form-main form input{
+    height: 35px;
+    width: 80%;
+    border-radius: 5px;
+    background: rgba(45,47,49,0.5);
+    padding: 5px;
+}
+.form-main form button{
+    width: 120px;
+    height: 38px;
+    font-size: 19px;
+    margin-top: 9px;
+    border: solid 1px;
+    border-radius: 15px;
+    background: rgba(45,47,49,0.5);
+}
+

@@ -1,0 +1,28 @@
+.title{
+    text-align: center;
+    color: rgba(45,47,49,1);
+    font-size: 15px;
+    font-weight: 600;
+    
+    margin: 40px 0 40px;
+}
+.title h1{
+   font-size: 40px;
+}
+.title p{
+    margin-top: 15px;
+    font-size: 25px;
+}
+@media (max-width:850px){
+    .title{
+        font-size: 13px;
+        margin: 30px 0 30px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .title p{
+        margin-top: 12px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,68 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(45, 47, 49, 0.4), rgba(45, 47, 49, 0.4)), url('../../Assets/gulshanimg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    text-align: center;
+    max-width: 800px;
+    font-size: 60px;
+    margin: 0;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 1200px) {
+    .hero-text h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-text h1 {
+        font-size: 25px;
+    }
+}
+
+
+.heroform-main{
+    padding-top: 80px;
+}
+.heroform{
+    background-color: rgba(45, 47, 49 ,0.5);
+}

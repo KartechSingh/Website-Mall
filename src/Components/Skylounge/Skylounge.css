@@ -1,0 +1,47 @@
+.lounge{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+ }
+ .lounge-right{
+     flex-basis: 40%;
+ }
+ .lounge-right img{
+    width: 100%; 
+    border-radius: 10px;
+    height: 300px;
+ }
+ .lounge-left{
+     flex-basis: 56%;
+ }
+ .lounge-left h3{
+     font-weight: 600;
+     font-size: 24px;
+     color: rgba(45,47,49);
+ }
+ .lounge-left h2{
+     font-size: 20px;
+     color: rgba(45,47,49,0.7);
+     margin: 10px 0;
+     
+ }
+ .lounge-left ul{
+     color: #676767;
+     margin-bottom: 15px;
+     list-style: none;
+ }
+ @media(max-width:850px){
+    .lounge{
+        flex-direction: column;
+    }
+    .lounge-right{
+        flex-basis: 100%;
+    }
+    .lounge-left{
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+
+}

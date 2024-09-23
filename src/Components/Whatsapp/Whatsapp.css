@@ -1,0 +1,32 @@
+ .contact-icon{
+    position: absolute;
+}
+.contactimg{
+     z-index: 10;
+    top: 80vh;
+    left: 90%;
+    
+     display: flex;
+     gap: 10px; 
+     position: fixed;
+    
+}
+
+
+
+ .contactimg img{
+    height: 50px;
+    width: 50px;
+    
+  
+} 
+@media (max-width:850px){
+    .contactimg{
+        left: 75%;
+    }
+}
+@media (max-width:490px){
+    .contactimg{
+        left: 62%;
+    }
+}
